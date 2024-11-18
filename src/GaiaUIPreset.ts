@@ -7,6 +7,7 @@ import {
   ErrorIcon,
   InfoIcon,
   LogoutIcon,
+  WarningIcon,
 } from "@gaiaprotocol/svg-icons";
 
 class GaiaUIPreset {
@@ -14,6 +15,7 @@ class GaiaUIPreset {
     AppCompConfig.LoadingSpinner = MaterialLoadingSpinner;
 
     AppCompConfig.InfoIcon = InfoIcon;
+    AppCompConfig.WarningIcon = WarningIcon;
     AppCompConfig.ErrorIcon = ErrorIcon;
 
     AppCompConfig.AccordionOpenIcon = AccordionOpenIcon;
