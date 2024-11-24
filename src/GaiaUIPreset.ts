@@ -4,6 +4,7 @@ import { SocialCompConfig } from "@common-module/social-components";
 import {
   AccordionCloseIcon,
   AccordionOpenIcon,
+  CloseIcon,
   ErrorIcon,
   InfoIcon,
   LogoutIcon,
@@ -14,6 +15,7 @@ import {
 class GaiaUIPreset {
   public init() {
     AppCompConfig.LoadingSpinner = MaterialLoadingSpinner;
+    AppCompConfig.CloseIcon = CloseIcon;
 
     AppCompConfig.SuccessIcon = SuccessIcon;
     AppCompConfig.InfoIcon = InfoIcon;
