@@ -8,6 +8,7 @@ import {
   ErrorIcon,
   InfoIcon,
   LogoutIcon,
+  SendIcon,
   SuccessIcon,
   WarningIcon,
 } from "@gaiaprotocol/svg-icons";
@@ -26,6 +27,7 @@ class GaiaUIPreset {
     AppCompConfig.AccordionCloseIcon = AccordionCloseIcon;
 
     SocialCompConfig.LogoutIcon = LogoutIcon;
+    SocialCompConfig.SendMessageButtonIcon = SendIcon;
   }
 }
 
