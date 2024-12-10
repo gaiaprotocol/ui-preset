@@ -26,6 +26,15 @@ class GaiaUIPreset {
     AppCompConfig.AccordionOpenIcon = AccordionOpenIcon;
     AppCompConfig.AccordionCloseIcon = AccordionCloseIcon;
 
+    AppCompConfig.updateTabBackgroundOnSelect = (tabBackground, tab) => {
+      const leftOffset = tab.htmlElement.offsetLeft;
+      const rightInset = tabBackground.calculateRect().width - leftOffset -
+        tab.calculateRect().width;
+      tabBackground.style({
+        clipPath: `inset(0px ${rightInset}px 0px ${leftOffset}px round 9999px)`,
+      });
+    };
+
     SocialCompConfig.LogoutIcon = LogoutIcon;
     SocialCompConfig.SendMessageButtonIcon = SendIcon;
   }
