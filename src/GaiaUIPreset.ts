@@ -8,6 +8,8 @@ import {
   ErrorIcon,
   InfoIcon,
   LogoutIcon,
+  MinusIcon,
+  PlusIcon,
   SendIcon,
   SuccessIcon,
   WarningIcon,
@@ -25,6 +27,9 @@ class GaiaUIPreset {
 
     AppCompConfig.AccordionOpenIcon = AccordionOpenIcon;
     AppCompConfig.AccordionCloseIcon = AccordionCloseIcon;
+
+    AppCompConfig.MinusIcon = MinusIcon;
+    AppCompConfig.PlusIcon = PlusIcon;
 
     AppCompConfig.updateTabBackgroundOnSelect = (tabBackground, tab) => {
       const leftOffset = tab.htmlElement.offsetLeft;
