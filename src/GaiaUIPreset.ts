@@ -6,13 +6,15 @@ import {
   AccordionOpenIcon,
   CloseIcon,
   ErrorIcon,
+  FolderCollapsedIcon,
+  FolderExpandedIcon,
   InfoIcon,
   LogoutIcon,
   MinusIcon,
   PlusIcon,
   SendIcon,
   SuccessIcon,
-  WarningIcon,
+  WarningIcon
 } from "@gaiaprotocol/svg-icons";
 
 class GaiaUIPreset {
@@ -27,6 +29,9 @@ class GaiaUIPreset {
 
     AppCompConfig.AccordionOpenIcon = AccordionOpenIcon;
     AppCompConfig.AccordionCloseIcon = AccordionCloseIcon;
+
+    AppCompConfig.FolderCollapsedIcon = FolderCollapsedIcon;
+    AppCompConfig.FolderExpandedIcon = FolderExpandedIcon;
 
     AppCompConfig.MinusIcon = MinusIcon;
     AppCompConfig.PlusIcon = PlusIcon;
