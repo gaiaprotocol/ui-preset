@@ -20,6 +20,7 @@ import {
   LinkIcon,
   LogoutIcon,
   MinusIcon,
+  MoreVertIcon,
   NumberListIcon,
   PlusIcon,
   QuoteIcon,
@@ -28,7 +29,7 @@ import {
   SuccessIcon,
   TableIcon,
   VideoIcon,
-  WarningIcon,
+  WarningIcon
 } from "@gaiaprotocol/svg-icons";
 
 class GaiaUIPreset {
@@ -75,6 +76,7 @@ class GaiaUIPreset {
     MarkdownEditorConfig.TableIcon = TableIcon;
     MarkdownEditorConfig.ImageIcon = ImageIcon;
     MarkdownEditorConfig.YouTubeIcon = VideoIcon;
+    MarkdownEditorConfig.MoreIcon = MoreVertIcon;
   }
 }
 
