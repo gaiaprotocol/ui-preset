@@ -1,20 +1,34 @@
 import { AppCompConfig } from "@common-module/app-components";
+import { MarkdownEditorConfig } from "@common-module/markdown-editor";
 import { MaterialLoadingSpinner } from "@common-module/material-loading-spinner";
 import { SocialCompConfig } from "@common-module/social-components";
 import {
   AccordionCloseIcon,
   AccordionOpenIcon,
+  BoldIcon,
+  BulletListIcon,
   CloseIcon,
+  CodeBlockIcon,
+  CodeIcon,
   ErrorIcon,
   FolderCollapsedIcon,
   FolderExpandedIcon,
+  HeadingIcon,
+  ImageIcon,
   InfoIcon,
+  ItalicIcon,
+  LinkIcon,
   LogoutIcon,
   MinusIcon,
+  NumberListIcon,
   PlusIcon,
+  QuoteIcon,
   SendIcon,
+  StrikethroughIcon,
   SuccessIcon,
-  WarningIcon
+  TableIcon,
+  VideoIcon,
+  WarningIcon,
 } from "@gaiaprotocol/svg-icons";
 
 class GaiaUIPreset {
@@ -47,6 +61,20 @@ class GaiaUIPreset {
 
     SocialCompConfig.LogoutIcon = LogoutIcon;
     SocialCompConfig.SendMessageButtonIcon = SendIcon;
+
+    MarkdownEditorConfig.BoldIcon = BoldIcon;
+    MarkdownEditorConfig.ItalicIcon = ItalicIcon;
+    MarkdownEditorConfig.StrikethroughIcon = StrikethroughIcon;
+    MarkdownEditorConfig.HeadingIcon = HeadingIcon;
+    MarkdownEditorConfig.LinkIcon = LinkIcon;
+    MarkdownEditorConfig.BulletListIcon = BulletListIcon;
+    MarkdownEditorConfig.NumberListIcon = NumberListIcon;
+    MarkdownEditorConfig.QuoteBlockIcon = QuoteIcon;
+    MarkdownEditorConfig.CodeIcon = CodeIcon;
+    MarkdownEditorConfig.CodeBlockIcon = CodeBlockIcon;
+    MarkdownEditorConfig.TableIcon = TableIcon;
+    MarkdownEditorConfig.ImageIcon = ImageIcon;
+    MarkdownEditorConfig.YouTubeIcon = VideoIcon;
   }
 }
 
