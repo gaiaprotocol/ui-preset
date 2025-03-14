@@ -11,8 +11,10 @@ import {
   CodeBlockIcon,
   CodeIcon,
   ErrorIcon,
+  ExitFullscreenIcon,
   FolderCollapsedIcon,
   FolderExpandedIcon,
+  FullscreenIcon,
   HeadingIcon,
   ImageIcon,
   InfoIcon,
@@ -21,21 +23,29 @@ import {
   LogoutIcon,
   MinusIcon,
   MoreVertIcon,
+  NextIcon,
   NumberListIcon,
   PlusIcon,
+  PrevIcon,
   QuoteIcon,
+  ResetZoomIcon,
   SendIcon,
+  ShareIcon,
   StrikethroughIcon,
   SuccessIcon,
   TableIcon,
   VideoIcon,
-  WarningIcon
+  WarningIcon,
+  ZoomInIcon,
+  ZoomOutIcon,
 } from "@gaiaprotocol/svg-icons";
 
 class GaiaUIPreset {
   public init() {
     AppCompConfig.LoadingSpinner = MaterialLoadingSpinner;
+
     AppCompConfig.CloseIcon = CloseIcon;
+    AppCompConfig.ShareIcon = ShareIcon;
 
     AppCompConfig.SuccessIcon = SuccessIcon;
     AppCompConfig.InfoIcon = InfoIcon;
@@ -50,6 +60,16 @@ class GaiaUIPreset {
 
     AppCompConfig.MinusIcon = MinusIcon;
     AppCompConfig.PlusIcon = PlusIcon;
+
+    AppCompConfig.PrevIcon = PrevIcon;
+    AppCompConfig.NextIcon = NextIcon;
+
+    AppCompConfig.ZoomInIcon = ZoomInIcon;
+    AppCompConfig.ZoomOutIcon = ZoomOutIcon;
+    AppCompConfig.ResetZoomIcon = ResetZoomIcon;
+
+    AppCompConfig.FullscreenIcon = FullscreenIcon;
+    AppCompConfig.ExitFullscreenIcon = ExitFullscreenIcon;
 
     AppCompConfig.updateTabBackgroundOnSelect = (tabBackground, tab) => {
       const leftOffset = tab.htmlElement.offsetLeft;
