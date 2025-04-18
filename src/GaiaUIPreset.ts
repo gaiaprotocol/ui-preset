@@ -1,7 +1,7 @@
-import { AppCompConfig } from "@common-module/app-components";
-import { MarkdownEditorConfig } from "@common-module/markdown-editor";
-import { MaterialLoadingSpinner } from "@common-module/material-loading-spinner";
-import { SocialCompConfig } from "@common-module/social-components";
+import { AppCompConfig } from "@commonmodule/app-components";
+import { MarkdownEditorConfig } from "@commonmodule/markdown-editor";
+import { MaterialLoadingSpinner } from "@commonmodule/material-loading-spinner";
+import { SocialCompConfig } from "@commonmodule/social-components";
 import {
   AccordionCloseIcon,
   AccordionOpenIcon,
@@ -38,7 +38,7 @@ import {
   WarningIcon,
   ZoomInIcon,
   ZoomOutIcon,
-} from "@gaiaprotocol/svg-icons";
+} from "@commonmodule/svg-icons";
 
 class GaiaUIPreset {
   public init() {

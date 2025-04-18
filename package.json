@@ -2,14 +2,14 @@
   "name": "@gaiaprotocol/ui-preset",
   "author": "Gaia Protocol",
   "homepage": "https://gaiaprotocol.com",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "types": "./lib/index.d.ts",
   "main": "./lib/index.js",
   "dependencies": {
-    "@common-module/material-loading-spinner": "^0.1.7",
-    "@common-module/social-components": "^0.1.6",
-    "@gaiaprotocol/svg-icons": "^0.0.1"
+    "@commonmodule/material-loading-spinner": "^0.1.7",
+    "@commonmodule/social-components": "^0.1.7",
+    "@commonmodule/svg-icons": "^0.0.1"
   },
   "devDependencies": {}
 }
