@@ -10,6 +10,7 @@ import {
   CloseIcon,
   CodeBlockIcon,
   CodeIcon,
+  DownloadIcon,
   ErrorIcon,
   ExitFullscreenIcon,
   FolderCollapsedIcon,
@@ -46,6 +47,7 @@ class GaiaUIPreset {
 
     AppCompConfig.CloseIcon = CloseIcon;
     AppCompConfig.ShareIcon = ShareIcon;
+    AppCompConfig.DownloadIcon = DownloadIcon;
 
     AppCompConfig.SuccessIcon = SuccessIcon;
     AppCompConfig.InfoIcon = InfoIcon;
